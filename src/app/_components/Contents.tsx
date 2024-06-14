@@ -50,11 +50,31 @@ export default function Contents() {
     return (
         <>
             {stars}
-            <div className="min-w-max ml-auto py-20 flex flex-col items-end text-5xl gap-96">
-                <div>
-
+            <div className="max-w-[600px] ml-auto py-20 flex flex-col items-end text-5xl gap-96 [&>div]:min-w-full [&>div]:flex">
+                <div className="justify-center flex-col overflow-hidden max-w-full gap-20">
+                    <span>保育園時代</span>
+                    <div className="flex gap-10 overflow-x-auto">
+                        <Image
+                            src={'/nursery-01.JPG'}
+                            alt="nursery-01"
+                            width={250}
+                            height={250}
+                        />
+                        <Image
+                            src={'/nursery-02.JPG'}
+                            alt="nursery-02"
+                            width={250}
+                            height={250}
+                        />
+                        <Image
+                            src={'/nursery-03.JPG'}
+                            alt="nursery-03"
+                            width={250}
+                            height={250}
+                        />
+                    </div>
                 </div>
-                <div className="min-w-full gap-20 flex flex-col items-center">
+                <div className="gap-20 flex flex-col items-center">
                     <span>アイドル時代</span>
                     <div className="flex gap-16">
                         <Image
@@ -71,7 +91,7 @@ export default function Contents() {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col items-center gap-20">
+                <div className="flex-col items-center gap-20">
                     <p className="flex flex-col gap-16">
                         <span>この頃から</span>
                         <span>人の上に立つ者の</span>
@@ -84,7 +104,7 @@ export default function Contents() {
                         height={550}
                     />
                 </div>
-                <div className="flex">
+                <div>
                     <p className="flex flex-col justify-between">
                         <span>2002年5月23日、</span>
                         <span>岩手県釜石市で</span>
