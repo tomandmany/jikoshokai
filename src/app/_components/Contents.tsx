@@ -51,8 +51,80 @@ export default function Contents() {
         <>
             {stars}
             <div className="max-w-[600px] ml-auto py-20 flex flex-col items-end text-5xl gap-96 [&>div]:min-w-full [&>div]:flex">
+                <div className="gap-16 flex flex-col items-center">
+                    <span>高校（暗黒時代）</span>
+                    <div>
+                        <Image
+                            src={'/highschool.JPG'}
+                            alt="highschool"
+                            width={600}
+                            height={600}
+                        />
+                    </div>
+                </div>
+                <div className="gap-16 flex flex-col items-center">
+                    <span>中学校（思春期の目）</span>
+                    <div className="flex gap-16">
+                        <Image
+                            src={'/shishunki-01.JPG'}
+                            alt="shishunki-01"
+                            width={250}
+                            height={250}
+                        />
+                        <Image
+                            src={'/shishunki-02.JPG'}
+                            alt="shishunki-02"
+                            width={250}
+                            height={250}
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src={'/shishunki-03.JPG'}
+                            alt="shishunki-03"
+                            width={600}
+                            height={600}
+                        />
+                    </div>
+                </div>
                 <div className="justify-center flex-col overflow-hidden max-w-full gap-20">
-                    <span>保育園時代</span>
+                    <span className="text-center w-fit">小学校<br />（黄金期）</span>
+                    <div className="relative">
+                        <div>
+                            <Image
+                                src={'/elementary-02.JPG'}
+                                alt="elementary-02"
+                                width={300}
+                                height={300}
+                            />
+                        </div>
+                        <div className="flex">
+                            <Image
+                                src={'/elementary-01.JPG'}
+                                alt="elementary-01"
+                                width={250}
+                                height={250}
+                            />
+                            <Image
+                                src={'/elementary-04.JPG'}
+                                alt="elementary-04"
+                                width={250}
+                                height={250}
+                            />
+                        </div>
+                        <div className="absolute -top-[150px] -right-[74px]">
+                            <Image
+                                src={'/elementary-03.JPG'}
+                                alt="elementary-03"
+                                width={500}
+                                height={250}
+                                className="-rotate-90"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="items-center flex-col overflow-hidden max-w-full gap-20">
+                    <span>保育園</span>
                     <div className="flex gap-10 overflow-x-auto">
                         <Image
                             src={'/nursery-01.JPG'}
@@ -117,6 +189,30 @@ export default function Contents() {
                         width={200}
                         height={200}
                     />
+                </div>
+                <div className="flex-col items-end whitespace-nowrap gap-32">
+                    <h1 className="flex gap-8">
+                        <span>やってた部活：</span>
+                        <span>野球部（小・中）、<br />eスポーツ部（高）</span>
+                    </h1>
+                    <h1 className="flex gap-8">
+                        <span>高校：</span>
+                        <span className="flex flex-col items-end">
+                            <span>秋田高等専門学校</span>
+                            <span>↓</span>
+                            <span>N高等学校</span>
+                        </span>
+                    </h1>
+                    <h1>最寄り：笹塚駅</h1>
+                    <h1>誕生日：2002年5月23日</h1>
+                    <h1 className="flex gap-8">
+                        <span>学部学科：</span>
+                        <span className="flex flex-col">
+                            <span>文学部文学科</span>
+                            <span>英米文学専攻</span>
+                        </span>
+                    </h1>
+                    <h1>名前：鈴木翔也</h1>
                 </div>
             </div>
         </>
