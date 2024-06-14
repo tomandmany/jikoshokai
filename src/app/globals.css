@@ -53,3 +53,19 @@ body {
     opacity: 0.2;
   }
 }
+
+/* styles/globals.css */
+
+@keyframes fly {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-200vh);
+  }
+}
+
+.animate-fly {
+  animation: fly 2s linear forwards;
+}
