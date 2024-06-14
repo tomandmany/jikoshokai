@@ -36,7 +36,7 @@ export default function Rocket() {
 
     return (
         <div
-            className={`flex items-center cursor-pointer fixed left-10 bottom-5 ${isFlying ? 'animate-fly' : ''}`}
+            className={`flex items-center cursor-pointer fixed left-20 bottom-5 ${isFlying ? 'animate-fly' : ''}`}
             onClick={handleClick}
             style={isFlying ? { transition: 'transform 2s linear', transform: 'translateY(-200vh)' } : {}}
         >
