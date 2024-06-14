@@ -52,19 +52,19 @@ export default function Contents() {
             {stars}
             <div className="min-w-max ml-auto py-20 flex flex-col items-end text-5xl gap-96">
                 <div>
-                    
+
                 </div>
                 <div className="min-w-full gap-20 flex flex-col items-center">
                     <span>アイドル時代</span>
                     <div className="flex gap-16">
                         <Image
-                            src={'/idle-01.jpg'}
+                            src={'/idle-01.JPG'}
                             alt="idle-01"
                             width={250}
                             height={250}
                         />
                         <Image
-                            src={'/idle-02.jpg'}
+                            src={'/idle-02.JPG'}
                             alt="idle-02"
                             width={250}
                             height={250}
@@ -78,7 +78,7 @@ export default function Contents() {
                         <span>兆候を見せ始める。</span>
                     </p>
                     <Image
-                        src={'/sibling-01.jpg'}
+                        src={'/sibling-01.JPG'}
                         alt="sibling-01"
                         width={550}
                         height={550}
@@ -92,7 +92,7 @@ export default function Contents() {
                         <span>として産まれる。</span>
                     </p>
                     <Image
-                        src={'/baby.jpg'}
+                        src={'/baby.JPG'}
                         alt="baby"
                         width={200}
                         height={200}
