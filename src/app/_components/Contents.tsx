@@ -191,11 +191,11 @@ export default function Contents() {
                     />
                 </div>
                 <div className="flex-col items-end whitespace-nowrap gap-32">
-                    <h1 className="flex gap-8">
+                    <h1 className="flex">
                         <span>やってた部活：</span>
                         <span>野球部（小・中）、<br />eスポーツ部（高）</span>
                     </h1>
-                    <h1 className="flex gap-8">
+                    <h1 className="flex">
                         <span>高校：</span>
                         <span className="flex flex-col items-end">
                             <span>秋田高等専門学校</span>
